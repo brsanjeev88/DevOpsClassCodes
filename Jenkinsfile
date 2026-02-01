@@ -6,7 +6,7 @@ pipeline {
   stages {
       stage('Clonerepo') {
          steps {
-            git 'https://github.com/bhasker-manikyala/DevOpsClassCodes.git'
+            git 'https://github.com/brsanjeev88/DevOpsClassCodes.git'
          }
       }
       stage('Compile') {
